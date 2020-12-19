@@ -92,214 +92,9 @@ a {
 
 /*-----------------------navbar end------------------------------------------->*/
 /*left  cards*/
-.card{
-    margin: 10px;
-    background:#4C5352!important;
-    color: white;
-}
-.dv{
-    display: flex;
-    flex-direction: row;
-}
-.dvl, .dvr{
-    display: flex;
-    flex-direction: column;
-
-}
-
-/*right cards*/
-.schedule{
-    overflow-y: scroll;
-    height: 350px;
-}
-
-/* post now border */
-
-.speak-loud{
-    padding-top: 0.7rem;
-    padding-bottom: 0.7rem;
-    border-radius: 50px;
-    font-size: small;
-    font-weight: bold;
-}
-.speak-loud:hover{
-    background-color: #EBEBEB;
-}
-
-/* rounded card */
-.card{
-    border-radius: 10px;
-    padding: 5px;
-}
-
-.sharebtm{
-    font-weight: bold;
-}
-.sharebtm:hover{
-    text-decoration: none;
-}
-/* second card */
-.name{
-    font-size: large;
-    font-weight: bold;
-}
-.schl{
-    font-size: small;
-    font-weight: 500;
-    line-height: 1em;
-}
-/* see more */
-#text{
-    display: none;
-}
-/* card header bg remove */
-
-.left,.right{
-    display: block;
-  }
-  .mfooter{
-    display:none;
-}
-/*--------------------media query for mob view--------------------*/
-@media (max-width: 768px) {
-  .left,.right{
-    display: none;
-  }
-  .c1{
-    display: none;
-  }
-
-.mfooter{
-    display:block;
-}
-.mfooter a{
-    font-size: 12px;
-}
-.mfooter ul{
-    margin-bottom: 0!important
-}
-.mfooter .navbar{
-    position: fixed;bottom: 0;
-    transition: all 0.5s;
-    width: 100%;
-}
-.plus i{
-    border-radius: 50%;
-    color: white;
-    border: 1px solid white;
-    font-size: 12px;
-}
-.n1 .nav-item a{
-    border-bottom: 1px solid white!important;
-    padding:10px; 
-    display: flex;
-}
-.n1 .nav-item a:hover{
-    background: blue!important;
-}
-.n1 i{
-   margin-right: 10px;
-    }
-
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "ITC Officina Sans Std Book";
-}
-
-body {
-    background: #111!important;
- 
-}
-body::-webkit-scrollbar {
-    width: 0.4em;
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color:rgb(155, 148, 148);
-  border-radius: 5px;
-  border: none;
-}
-
-.tab-content::-webkit-scrollbar {
-    width: 0.4em;
-    height: 0.4em;
-    background-color:white;
-    border-radius: 5px;
-}
-.tab-content::-webkit-scrollbar-thumb {
-  background-color:rgb(155, 148, 148);
-  border-radius: 5px;
-  border: none;
-}
-input[type=checkbox],
-a {
-    cursor: pointer;
-}
-
-
-/*--------------------------navbar------------------------------------------*/
-
-.navbar-brand {
-    font-size: 20px;
-    margin-top: 5px!important;
-    margin-bottom: -10px!important
-}
-
-.navbar-brand p {
-    font-size: 14px;
-    margin-top: -10px;
-}
-
-.nav-item a,
-.navbar-brand {
-    color: white !important;
-}
-
-.nav-link {
-    font-weight: bold!important
-}
-
-.btn.btn-search {
-    background: #2ECAB6!important;
-    border-radius: 0;
-    color: white;
-}
-
-.login a:hover {
-    text-decoration: underline;
-}
-
-.dropdown-toggle::after {
-    content: none;
-}
-
-.fa-map-marker-alt {
-   /* color: #2ecab6;*/
-    font-size: 20px;
-    margin-right: 5px;
-}
-
-.other {
-    color: black;
-}
-.nav-item{
-    display: flex;
-    flex-direction: column;
-    margin: 5px;
-}
-/*i {
-   margin-left: 8px;
-}*/
-
-/*-----------------------navbar end------------------------------------------->*/
-/*left  cards*/
 .card {
     margin: 10px;
-    background:#4C5352!important;
+    background: #111!important;
     color: white;
 }
 
@@ -312,7 +107,14 @@ a {
     flex-direction: column;
 
 }
+.list >li {
+    margin: 10px;
+    color: white;
 
+}
+.view a:hover{
+    text-decoration: underline;
+}
 /*right cards*/
 .schedule{
     overflow-y: scroll;
@@ -366,55 +168,23 @@ a {
   .mfooter{
     display:none;
 }
-/*--------------------media query for mob view--------------------*/
-@media (max-width: 768px) {
-  .left,.right{
-    display: none;
-  }
-  .c1{
-    display: none;
-  }
-
-.mfooter{
-    display:block;
-}
-.mfooter a{
-    font-size: 12px;
-}
-.mfooter ul{
-    margin-bottom: 0!important
-}
-.mfooter .navbar{
-    position: fixed;bottom: 0;
-    transition: all 0.5s;
-    width: 100%;
-}
-.plus i{
-    border-radius: 50%;
-    color: white;
-    border: 1px solid white;
-    font-size: 12px;
-}
-.n1 .nav-item a{
-    border-bottom: 1px solid white!important;
-    padding:10px; 
-    display: flex;
-}
-.n1 .nav-item a:hover{
-    background: blue!important;
-}
-.n1 i{
-   margin-right: 10px;
-    }
-
+.schedule::-webkit-scrollbar {
+    width: 0.3em;
 }
 
+.schedule::-webkit-scrollbar-thumb {
+  background-color:rgb(155, 148, 148);
+  border-radius: 5px;
+  border: none;
+}
+.md-sec::-webkit-scrollbar {
+    width: 0px; /* Remove scrollbar space for middle secction */
+}
 /* Modal start */
 
-* {box-sizing: border-box}
 
 /* Full-width input fields */
-  input[type=text], input[type=password] {
+input[type=password] {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -422,16 +192,29 @@ a {
   border: none;
   background: #f1f1f1;
 }
+.email{
+    width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
 
-
-
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
+}
+.docs > input {
+    background: lightgrey;
+ 
 }
 
+
+
+/*hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}*/
+
 /* Set a style for all buttons */
-button {
+/*button {
   background-color: #4CAF50;
   color: white;
   padding: 14px 20px;
@@ -440,11 +223,12 @@ button {
   cursor: pointer;
   width: 100%;
   opacity: 0.9;
-}
+}*/
 
 button:hover {
   opacity:1;
 }
+
 
 /* Extra styles for the cancel button */
 .contibtn {
@@ -477,11 +261,55 @@ button:hover {
    text-align: center; 
    border-bottom: 1px solid #000; 
    line-height: 0.1em;
-   margin: 10px 0 20px; 
+   margin: 10px 10px 10px; 
 } 
 
 .unique span { 
     background:#fff; 
-    padding:0 10px; 
+    padding:5px 5px; 
 }
+
 /* Modal end */
+
+/*--------------------media query for mob view--------------------*/
+@media (max-width: 768px) {
+  .left,.right{
+    display: none;
+  }
+  .c1{
+    display: none;
+  }
+
+.mfooter{
+    display:block;
+}
+.mfooter a{
+    font-size: 12px;
+}
+.mfooter ul{
+    margin-bottom: 0!important
+}
+.mfooter .navbar{
+    position: fixed;bottom: 0;
+    transition: all 0.5s;
+    width: 100%;
+}
+.plus i{
+    border-radius: 50%;
+    color: white;
+    border: 1px solid white;
+    font-size: 12px;
+}
+.n1 .nav-item a{
+    border-bottom: 1px solid white!important;
+    padding:10px; 
+    display: flex;
+}
+.n1 .nav-item a:hover{
+    background: blue!important;
+}
+.n1 i{
+   margin-right: 10px;
+    }
+
+}
