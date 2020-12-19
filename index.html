@@ -18,11 +18,12 @@
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
-  <div class="header" style="margin-bottom: 4.8rem;">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top n1" style="background-color: #fff;">
+  <div class="header" style="margin-bottom: 4.8rem; ">
+    <nav class="navbar navbar-expand-lg  fixed-top n1" style="background-color: #111;">
       <a class="navbar-brand pl-4 py-0 " href="#"><b>SHELTOWN.in</b><br>
         <p>Live Like You Own It</p>
       </a>
+
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -81,6 +82,8 @@
       </div>
     </nav>
   </div>
+
+
   <!--header end---------->
   <!-- container -->
   <div class="container-fluid ">
@@ -118,11 +121,15 @@
   <div class="card shadow">
     <h5 class="card-header">Request</h5>
     <div class="card-body docs">
-      <button type="button" class="btn btn-secondary"  style="margin-bottom: 10px; width: 10rem;" data-toggle="modal" data-target="#exampleModal">Leave</button><br/>
+      <button type="button" class="btn btn-outline-secondary"  style="margin-bottom: 10px; width: 10rem;" data-toggle="modal" data-target="#exampleModal">Leave</button><br/>
 
-      <button type="button" class="btn btn-secondary"  style="margin-bottom: 10px;  width: 10rem;" data-toggle="modal" data-target="#exampleModal">Documents</button><br/>
-      <button type="button" class="btn btn-secondary"  style="margin-bottom: 10px;  width: 10rem;" data-toggle="modal" data-target="#exampleModal">Certificates</button><br/>
+      <button type="button" class="btn btn-outline-secondary"  style="margin-bottom: 10px;  width: 10rem;" data-toggle="modal" data-target="#exampleModal">Documents</button><br/>
+      <button type="button" class="btn btn-outline-secondary"  style="margin-bottom: 10px;  width: 10rem;" data-toggle="modal" data-target="#exampleModal">Certificates</button><br/>
       
+
+
+
+
     </div>
   </div>
       </div>
@@ -251,7 +258,9 @@
     </div>
   </div>
   <div class="card shadow " >
-    <h5 class="card-header">My Schedule</h5>
+    <div class="card-header  d-flex" >
+      <h5>My Schedule</h5> <span class="mx-3" ><a id="cale" class="p-1" style="color: white;" ><i class="fas fa-calendar-alt fa-lg"></i><a></span>
+      </div>
     <div class="card-body schedule view" >
       <h5 class="card-title" >21/12/2020</h5><br>
 
@@ -297,19 +306,19 @@
   </div>
 </div>
 <!-- modal end -->
-<!-- Modal for sign up start -->
+<!-- Modal for signup and login start -->
 <div id="SignupModal" class="modal fade" role="dialog">
   <div class="modal-dialog" >
     <div class="modal-content">
-      <div class="modal-header" style="background: #ccc">
-        <h5 class="modal-title">Sign Up</h5>
+      <div class="modal-header" style="background: #111">
+        <h5 class="modal-title"  style="color: white;">Sign Up</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
    
-            <form style="border:1px solid #ccc">
-  <div class="container"  style=" background:#4C5352!important;">
+            <form style="border:none;">
+  <div class="container"  style=" background:#111!important; border: none;">
     <label for="email" style="color: white"><b>Enter Email or Mobile number</b></label>
     <input type="text" class="email" placeholder="Enter Email or Mobile number" >
 
@@ -317,7 +326,7 @@
     <input type="password" placeholder="Enter Password" name="psw" required>
 
    <h5> <p style="display: inline; color: white">I am a </p>
-    <select >
+    <select style="background-color: #111; color: white;">
   <option value="student"><h5>Student</h5></option>
   <option value="teacher">Faculty</option>
  
@@ -326,14 +335,14 @@
     
     <p style="color: white" class="policy">By clicking continue, you agree to our <a href="#" style="color:white;">User Agreement</a>,<a href="#" style="color:white;"> Privacy Policy</a> and <a href="#" style="color:white;">Cookie Policy</a>.</p>
 
-<button type="button" class="btn btn-secondary btn-sm btn-block" >Continue</button><br>
-  <div class="unique">
-  <h5><span>OR</span></h5>
+<button type="button" class="btn btn-outline-secondary btn-sm btn-block">Continue</button><br>
+  <div class="unique" >
+  <h5 ><span >OR</span></h5>
 </div><br>
 
     <div class="google">
-      <button type="button" class="btn btn-secondary btn-sm btn-block">Join With Google</button><br>
-      <p>Already registered?<a href="#" style="color:white; ">&nbsp;Sign in</a></p>
+      <button type="button" class="btn btn-outline-secondary btn-sm btn-block">Join With Google</button><br>
+      <p style="color: white;">Already registered?<a href="#" style="color:white; ">&nbsp;Sign in</a></p>
     </div>
   </div>
 </form>
@@ -347,14 +356,14 @@
 <div id="LoginModal" class="modal fade" role="dialog">
   <div class="modal-dialog">
     <div class="modal-content">
-      <div class="modal-header" style="background: #ccc">
-        <h5 class="modal-title">Sign In</h5>
+      <div class="modal-header" style="background: #111">
+        <h5 class="modal-title" style="color: #fff;">Sign In</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-<form style="border:1px solid #ccc">
-  <div class="container " style="background:#4C5352!important;">
+<form style="border:none;">
+  <div class="container " style="background:#111!important;">
 
      <label for="email" style="color: white"><b>Enter Email or Mobile number</b></label>
     <input type="text" class="email" placeholder="Enter Email or Mobile number" name="email" required>
@@ -364,7 +373,7 @@
     <h6 ><a href="#" style="color:white;">&nbsp;Forgot password?</a></h6>
 
     <div class="signin">
-      <button type="button" class="btn btn-secondary btn-block">Sign In</button>
+      <button type="button" class="btn btn-outline-secondary btn-block">Sign In</button>
       <p style="color: white">New?<a href="#" style="color:white">&nbsp;Sign up</a></p>
     </div>
 
