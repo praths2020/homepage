@@ -186,23 +186,23 @@ a {
 /* Full-width input fields */
 input[type=password] {
   width: 100%;
-  padding: 15px;
+  padding: 5px;
   margin: 5px 0 22px 0;
   display: inline-block;
   border: none;
-  background: #f1f1f1;
+  background:#111;
 }
 .email{
     width: 100%;
-  padding: 15px;
+  padding: 5px;
   margin: 5px 0 22px 0;
   display: inline-block;
   border: none;
-  background: #f1f1f1;
+  background: #111;
 
 }
 .docs > input {
-    background: lightgrey;
+    background: #111;
  
 }
 
@@ -232,14 +232,14 @@ button:hover {
 
 /* Extra styles for the cancel button */
 .contibtn {
-  padding: 14px 20px;
+  padding: 5px;
 }
 
 
 
 /* Add padding to container elements */
 .container {
-  padding: 16px;
+  padding: 5px;
 }
 
 /* Clear floats */
@@ -265,8 +265,9 @@ button:hover {
 } 
 
 .unique span { 
-    background:#fff; 
+    background:#111; 
     padding:5px 5px; 
+    color: #fff;
 }
 
 /* Modal end */
@@ -313,3 +314,4 @@ button:hover {
     }
 
 }
+
