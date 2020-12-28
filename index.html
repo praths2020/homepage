@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
   <link href="fontawesome-free-5.13.0-web/fontawesome/css/all.css" rel="stylesheet" />
   <link href="fontawesome-free-5.13.0-web/fontawesome/css/fontawesome.min.css" rel="stylesheet" />
-  <link href="ncss.css" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
   <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" rel="stylesheet" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
@@ -21,7 +21,7 @@
 <body>
   <div class="header header1" style="margin-bottom: 2rem !important; ">
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top n1" style="background-color: #111;border-bottom: 1px solid #444;">
-      <a class="navbar-brand pl-4 py-0 " href="#"><b>SHELTOWN.in</b><br>
+      <a class="navbar-brand pl-4 py-0 " href="index.html"><b>SHELTOWN.in</b><br>
         <p>Live Like You Own It</p>
       </a>
 
@@ -62,96 +62,98 @@
           <a class="dropdown-item" href="fee.html" style="color: black !important;">Fee Details</a>
           <a class="dropdown-item" href="request.html" style="color: black !important;">Raise A Request</a>
           <a class="dropdown-item" href="badges.html" style="color: black !important;">Recommendation Badges</a>
-          <a class="dropdown-item" href="" style="color: black !important;">Feedback</a>
+          <a class="dropdown-item" href="feedback.html" style="color: black !important;">Feedback</a>
           <a class="dropdown-item" href="notice.html" style="color: black !important;">Notice Board</a>
           <a class="dropdown-item" href="complaints.html" style="color: black !important;">Complaints</a>
           <a class="dropdown-item" href="" style="color: black !important;">Holidays</a>
         </div>
       </li>
           <li class="nav-item mr-4">
-            <a href=""><div><i class="fa fa-paper-plane" aria-hidden="true"></i></div>
+            <a href="internship.html"><div><i class="fa fa-paper-plane" aria-hidden="true"></i></div>
              <div>Internship</div></a>      
           </li>
           <li class="nav-item mr-4">
             <a href="chat.html"><div><i class="fas fa-commenting" aria-hidden="true"></i></div>
               <div>Chat</div></a>      
           </li>
-          <li class="nav-item mr-4">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><div><i class="fa fa-bell" aria-hidden="true"></i><div>Notification (<b>2</b>)</div></a>
-           
-  <!-- New code -->
-  <div class="container" style="height: 0px;">
-  <div class="row">
-    <nav class="navbar navbar-default">
-  <div class="container-fluid">
-   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-<ul class="nav navbar-nav navbar-right">
-        <li class="dropdown" >
+          <li class="nav-item dropdown " >
+            <a href=""><div><i class="fa fa-bell" aria-hidden="true"></i></a>
+        <a class="nav-link dropdown-toggle py-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Notification
+        </a>
+        <div class="dropdown-menu section1" aria-labelledby="navbarDropdown"style="background: #111;border:1px solid #444;">
           
-          <ul class="dropdown-menu notify-drop">
-            <div class="notify-drop-title">
-              <div class="row" >
-                <div class="col-md-6 col-sm-6 col-xs-6" style="height: 10px;" >Notifications (<b>2</b>)</div>
-                <div class="col-md-6 col-sm-6 col-xs-6 text-right"><a href="" class="rIcon allRead" data-tooltip="tooltip" data-placement="bottom" title="tümü okundu."><i class="fa fa-dot-circle-o"></i></a></div>
+          <a class="dropdown-item" href=""  >
+             <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-3 px-0">
+                  <div class="notify-img">
+                    <img src="images/boy.png" alt="" >
+                  </div>
+                </div>
+                <div class="col-md-9 col-sm-9 col-9">
+                  <p   class="mb-0">Sarath Pillai </p>
+                  <p class="notify mt-0" >Added a new property</p>
+                </div>
               </div>
-            </div>
-            <!-- end notify title -->
-            <!-- notify content -->
-            <div class="drop-content" style="background-color: #111;">
-              <li>
-                <div class="col-md-3 col-sm-3 col-xs-3"><div class="notify-img"><img src="http://placehold.it/45x45" alt=""></div></div>
-                <div class="col-md-9 "><a style="color: #111;" href="">Sarath Pillai 
-                
-                
-                <p class="notify" style=" color: #fff;">Added a new property</p>
+          </a>
+          <a class="dropdown-item" href="request.html"  >
+         <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-3 px-0">
+                  <div class="notify-img">
+                    <img src="images/boy.png" alt="" >
+                  </div>
                 </div>
-              </li>
-                            <li>
-                <div class="col-md-3 col-sm-3 col-xs-3"><div class="notify-img"><img src="http://placehold.it/45x45" alt=""></div></div>
-                <div class="col-md-9 col-sm-9 col-xs-9 pd-l0"><a style="color: #111;" href="">Manasi Sherkhane </a>
-                
-               
-                <p class="notify1" style=" color: #fff;">Posted an update</p>
+                <div class="col-md-9 col-sm-9 col-9">
+                  <p   class="mb-0">Manasi Sherkhane </p>
+                  <p class="notify mt-0" >Added a new property</p>
                 </div>
-              </li>
-                            <li>
-                <div class="col-md-3 col-sm-3 col-xs-3"><div class="notify-img"><img src="http://placehold.it/45x45" alt=""></div></div>
-                <div class="col-md-9 col-sm-9 col-xs-9 pd-l0"><a style="color: #111;" href="">Pratiksha Prabhu</a>
-                
-                
-                <p class="notify" style=" color: #fff;" >Added a new property</p>
+              </div>
+          </a>
+          <a class="dropdown-item" href="badges.html"  >
+          <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-3 px-0">
+                  <div class="notify-img">
+                    <img src="images/boy.png" alt="" >
+                  </div>
                 </div>
-              </li>
-                            <li>
-                <div class="col-md-3 col-sm-3 col-xs-3"><div class="notify-img"><img src="http://placehold.it/45x45" alt=""></div></div>
-                <div class="col-md-9 col-sm-9 col-xs-9 pd-l0"><a style="color: #111;" href="">Sarath Pillai </a>
-                
-                
-                <p class="notify" style=" color: #fff;">Added a new property</p>
+                <div class="col-md-9 col-sm-9 col-9">
+                  <p   class="mb-0">Sarath Pillai </p>
+                  <p class="notify mt-0" >Added a new property</p>
                 </div>
-              </li>
-                            <li>
-                <div class="col-md-3 col-sm-3 col-xs-3"><div class="notify-img"><img src="http://placehold.it/45x45" alt=""></div></div>
-                <div class="col-md-9 col-sm-9 col-xs-9 pd-l0"><a style="color: #111;" href="">Sarath Pillai </a>
-                
-               
-                <p class="notify" style="color: #fff;">Added a new property</p>
+              </div>
+          </a>
+          <a class="dropdown-item" href="feedback.html"  >
+             <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-3 px-0">
+                  <div class="notify-img">
+                    <img src="images/boy.png" alt="" >
+                  </div>
                 </div>
-              </li>
-            </div>
-            <div class="notify-drop-footer text-center" style="background-color: #111;">
-              <a href=""><i class="fa fa-eye"></i> View All</a>
-            </div>
-          </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-</div>
-</nav>
-</div>
-</div>
-
-  <!-- new code end -->
+                <div class="col-md-9 col-sm-9 col-9">
+                  <p   class="mb-0">Sarath Pillai </p>
+                  <p class="notify mt-0" >Added a new property</p>
+                </div>
+              </div>
+          </a>
+          <a class="dropdown-item" href="notice.html"  >
+          <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-3 px-0">
+                  <div class="notify-img">
+                    <img src="images/boy.png" alt="" >
+                  </div>
+                </div>
+                <div class="col-md-9 col-sm-9 col-9">
+                  <p   class="mb-0">Sarath Pillai </p>
+                  <p class="notify mt-0" >Added a new property</p>
+                </div>
+              </div>
+          </a>
+          
+          <a class="dropdown-item" href="notification.html" style="color:blue;">View All</a>
+        </div>
+      </li>
+                   
+ 
 
           </li>
           <li class="nav-item dropdown " >
@@ -173,7 +175,7 @@
       </div>
 
     </nav>
-  </div><br><br>
+  </div><br><br><br>
 
 
 
@@ -181,7 +183,7 @@
   <!----------------------mob header---------------------------------->
   <div class="header header2" style="margin-bottom: 2rem;">
     <nav class="navbar navbar-dark  justify-content-between fixed-top"style="background-color: #111;border-bottom: 1px solid #444;">
-  <div style=";"class="d-flex">
+  <div class="d-flex">
      <a class="navbar-brand pl-0 py-0 " href="#"><b>SHELTOWN.in</b><br>
         <p>Live Like You Own It</p>
       </a>
@@ -197,7 +199,7 @@
             </div>
       
         <div>
-            <a href=""><div><i class="fas fa-comment-dots"></i></div>
+            <a href="chatm.html"><div><i class="fas fa-comment-dots"></i></div>
               </a> 
               </div>     
           
@@ -222,9 +224,32 @@
     <div class="">@Priyanka_2480</div>
     <div class=""><span><a href=""> 200 connections</a></span>&nbsp;<span><a href=""> 60 friends</a></span></div>
   <div class="menu" ><a href="#"><i class="fa fa-user-circle mr-2" aria-hidden="true "></i>Profile</a>
-  <a href="#"><i class="fa fa-book mr-2" aria-hidden="true" mr-2></i>Academics</a>
-  <a href="#"><i class="fa fa-building mr-2" aria-hidden="true "></i>Campus</a>
-  <a href="#"><i class="fa fa-paper-plane mr-2" aria-hidden="true"></i>Internship</a>
+
+
+  	<a class="acc" data-toggle="collapse" href="#academics"  aria-expanded="false" aria-controls="collapseExample"><i class="fa fa-book mr-2" aria-hidden="true" mr-2></i>Academics</a>
+  <ul class="collapse" id="academics" style="list-style: none; margin-left: 30px;" >
+      <li><a href="#">Attendance</a></li>
+      <li><a href="#">Time-Table</a></li>
+      <li><a href="#">Examination</a></li>
+      <li><a href="#">Assignment</a></li>
+      <li><a href="#">Study Material</a></li>
+      <li><a href="#">Research</a></li>
+    </ul>
+
+<a class="acc" data-toggle="collapse" href="#campus"  aria-expanded="false" aria-controls="collapseExample"><i class="fa fa-building mr-2" aria-hidden="true "></i>Campus</a>
+  <ul class="collapse" id="campus" style="list-style: none; margin-left: 30px;" >
+      <li><a href="#">Classroom</a></li>
+      <li><a href="#">Fee Details</a></li>
+      <li><a href="#">Raise A Request</a></li>
+      <li><a href="#">Recommendation Badges</a></li>
+      <li><a href="#">Notice Board</a></li>
+      <li><a href="#">Complaints</a></li>
+      <li><a href="#">Holidays</a></li>
+
+    </ul>
+
+  <a href="internship.html"><i class="fa fa-paper-plane mr-2" aria-hidden="true"></i>Internship</a>
+  
   <a href="#"><i class="fa fa-cog mr-2" aria-hidden="true"></i>Setting & Privacy</a>
   <a href="#"><i class="fa fa-clock mr-2" aria-hidden="true"></i>24/7 Help</a>
   <a href="#"><i class="fa fa-power-off mr-2" aria-hidden="true"></i>Logout</a></div>
@@ -276,15 +301,6 @@ function closeNav() {
       <a href="#" class="viewall" style="float: right;">View All</a>
     </div>
   </div>
-  <!-- <div class="card shadow">
-    <h5 class="card-header">Request</h5>
-    <div class="card-body docs">
-      <button type="button" class="btn btn-outline-primary"  style="margin-bottom: 10px; width: 10rem;" data-toggle="modal" data-target="#exampleModal">Leave</button><br/>
-      <button type="button" class="btn btn-outline-primary"  style="margin-bottom: 10px;  width: 10rem;" data-toggle="modal" data-target="#exampleModal">Documents</button><br/>
-      <button type="button" class="btn btn-outline-primary"  style="margin-bottom: 10px;  width: 10rem;" data-toggle="modal" data-target="#exampleModal">Certificates</button><br/>
-      
-    </div>
-  </div> -->
       </div>
   <!-- left side end -->
   <!-- middle sec -->
@@ -302,21 +318,21 @@ function closeNav() {
             <div class="sharepimg  d-flex justify-content-between">
               <div class="icons">
               <i class="fa fa-picture-o" aria-hidden="true" style=" margin-right: 6px"> </i>
-              <a class="sharebtm">Photos</a></div>
+              <a class="sharebtm" data-toggle="modal" data-target="#postModal">Photos</a></div>
               <div class="icons">
               <i class="fa fa-video-camera" aria-hidden="true" style=" margin-right: 6px"></i>
-              <a class="sharebtm">Videos</a></div>
+              <a class="sharebtm" data-toggle="modal" data-target="#postModal">Videos</a></div>
               <div class="icons">
                 <i class="fa fa-file-text" aria-hidden="true" style=" margin-right: 6px"></i>
-              <a class="sharebtm">Petition</a>
+              <a class="sharebtm" data-toggle="modal" data-target="#postModal">Petition</a>
             </div>
             <div class="icons">
               <i class="fa fa-handshake-o" aria-hidden="true" style=" margin-right: 6px"></i>
-              <a class="sharebtm">Celebrate</a>
+              <a class="sharebtm" data-toggle="modal" data-target="#postModal">Celebrate</a>
             </div>
             <div class="icons">
               <i class="fa fa-envelope-open" aria-hidden="true" style="margin-right: 6px; " ></i>
-              <a class="sharebtm">Invite</a>
+              <a class="sharebtm" data-toggle="modal" data-target="#postModal">Invite</a>
               
             </div>
                
@@ -337,10 +353,10 @@ function closeNav() {
         <div class="modal-body">
              <div>
                <span class=""><img src="images/boy.png"style="width:50px;height:auto;background: white;"class="rounded-circle"></span><span  class="mx-3"style="font-size: 20px;">Priyanka</span>
-               <span class="mx-2"><select class="py-2 px-2"style="background: #111;color: white;border-radius: 50px;">
-                 <option>Anyone</option>
-                 <option>Connection only</option>
-                 <option>Group memmbers</option>
+               <span class="mx-1"><select class="py-1 px-1"style="background: #111;color: white;border-radius: 50px;">
+                 <option>Public</option>
+                 <option>Classmates only</option>
+                 <option>Campus only</option>
                </select></span>
              </div>
              <div class="my-2">
@@ -352,7 +368,7 @@ function closeNav() {
              <div class="my-2 d-flex justify-content-between">
                <div class="icons">
                  <a href=""><i class="fas fa-plus mx-2"></i></a>
-                 <a href=""><i class="fas fa-image mx-2"></i></a>
+                 <a href="" type="file"><i class="fas fa-image mx-2"></i></a>
                  <a href=""><i class="fab fa-youtube mx-2"></i></a>
                  <a href=""><i class="fas fa-file-alt mx-2"></i></a>
                  
@@ -363,12 +379,11 @@ function closeNav() {
              </div>
              </div>
              <div class="modal-footer p-0">
-             <div style="background: #222;"class="btns">
-               <button class="btn m-2">celebrate an occasion</button>
-               <button class="btn m-2">Share that you are hiring</button>
-               <button class="btn m-2">Find an expert</button>
-               <button class="btn m-2">Create a poll</button>
-               <button class="btn m-2">Offer help</button>
+             <div class="btns">
+               <button class="btn m-2">Celebrate an occasion</button>
+               <button class="btn m-2">Write a Petition</button>
+               <button class="btn m-2">Invite a Friend</button>
+              
              </div>
              </div>
         
@@ -676,13 +691,145 @@ function closeNav() {
 <!-- container end -->
 
 
+ <!--------modal start------>
+  <div class="modal fade" id="postModal">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content"style="background: #111!important;color: white;border: 1px solid #ccc;">
+        <div class="modal-header" >
+          <h4 class="modal-title">Create a post</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true"style="color: white;">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+             <div>
+               <span class=""><img src="images/boy.png"style="width:50px;height:auto;background: white;"class="rounded-circle"></span><span  class="mx-3"style="font-size: 20px;">Priyanka</span>
+               <span class="mx-1"><select class="py-1 px-1"style="background: #111;color: white;border-radius: 50px;">
+                 <option>Public</option>
+                 <option>Classmates only</option>
+                 <option>Campus only</option>
+               </select></span>
+             </div>
+             <div class="my-2">
+               <textarea class="form-control" id="textarea" rows="3"placeholder="What do you want to talk about"style="background: transparent;border: none;color: white;"></textarea>
+             </div>
+             <div class="my-2">
+               <button style="color: #1DA1F2;font-size: 18px;"class="hashtag btn">Add Hashtag</button><span style="color: grey;"class="mx-3">Help the right people see your post</span>
+             </div>
+             <div class="my-2 d-flex justify-content-between">
+               <div class="icons">
+                 <a href=""><i class="fas fa-plus mx-2"></i></a>
+                 <a href="" type="file"><i class="fas fa-image mx-2"></i></a>
+                 <a href=""><i class="fab fa-youtube mx-2"></i></a>
+                 <a href=""><i class="fas fa-file-alt mx-2"></i></a>
+                 
+               </div>
+               <div>
+                 <button class="btn btn-outline-primary px-4"style="border-radius: 50px;">Post</button>
+               </div>
+             </div>
+             </div>
+             <div class="modal-footer p-0">
+             <div class="btns">
+               <button class="btn m-2">Celebrate an occasion</button>
+               <button class="btn m-2">Write a Petition</button>
+               <button class="btn m-2">Invite a Friend</button>
+              
+             </div>
+             </div>
+        
+      </div>
+    </div>
+  </div>
+  <script >
+    $(document).ready(function(){
+  $("#post").click(function() {
+  $("#postModal").modal('show');
+
+  $('.hashtag').click(function () {
+            var areaValue = $('#textarea').val();
+        $('#textarea').val(areaValue + '#');
+        });
+
+  
+ })  
+});
+  </script>
+        <!--------modal end------>
+  
 <!-------footer for mob view start------------>
+ <!--------modal start------>
+  <div class="modal fade" id="postModal">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content"style="background: #111!important;color: white;border: 1px solid #ccc;">
+        <div class="modal-header" >
+          <h4 class="modal-title">Create a post</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true"style="color: white;">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+             <div>
+               <span class=""><img src="images/boy.png"style="width:50px;height:auto;background: white;"class="rounded-circle"></span><span  class="mx-3"style="font-size: 20px;">Priyanka</span>
+               <span class="mx-1"><select class="py-1 px-1"style="background: #111;color: white;border-radius: 50px;">
+                 <option>Public</option>
+                 <option>Classmates only</option>
+                 <option>Campus only</option>
+               </select></span>
+             </div>
+             <div class="my-2">
+               <textarea class="form-control" id="textarea" rows="3"placeholder="What do you want to talk about"style="background: transparent;border: none;color: white;"></textarea>
+             </div>
+             <div class="my-2">
+               <button style="color: #1DA1F2;font-size: 18px;"class="hashtag btn">Add Hashtag</button><span style="color: grey;"class="mx-4">Help the right people see your post</span>
+             </div>
+             <div class="my-2 d-flex justify-content-between">
+               <div class="icons">
+                 <a href=""><i class="fas fa-plus mx-2"></i></a>
+                 <a href="" type="file"><i class="fas fa-image mx-2"></i></a>
+                 <a href=""><i class="fab fa-youtube mx-2"></i></a>
+                 <a href=""><i class="fas fa-file-alt mx-2"></i></a>
+                 
+               </div>
+               <div>
+                 <button class="btn btn-outline-primary px-4"style="border-radius: 50px;">Post</button>
+               </div>
+             </div>
+             </div>
+             <div class="modal-footer p-0">
+             <div class="btns">
+               <button class="btn m-2">Celebrate an occasion</button>
+               <button class="btn m-2">Write a Petition</button>
+               <button class="btn m-2">Invite a Friend</button>
+              
+             </div>
+             </div>
+        
+      </div>
+    </div>
+  </div>
+  <script >
+    $(document).ready(function(){
+  $("#post").click(function() {
+  $("#postModal").modal('show');
+
+  $('.hashtag').click(function () {
+            var areaValue = $('#textarea').val();
+        $('#textarea').val(areaValue + '#');
+        });
+
+  
+ })  
+});
+  </script>
+        <!--------modal end------>
+  
 <!-------footer for mob view start------------>
 <div class="mfooter">
   <nav class="navbar navbar-light "id="navbar1"style="background-color: #111;border-top: 1px solid #444;">
     <ul class=" d-flex justify-content-between "style="width: 100%;">
           <li class="nav-item mx-2 text-center">
-            <a href="">
+            <a href="index.html">
               <div><i class="fa fa-home" aria-hidden="true"></i></div>
               
             </a> 
@@ -693,13 +840,13 @@ function closeNav() {
             </a>      
           </li>
           <li class="nav-item mx-2 text-center">
-             <a href=""class="plus">
+             <a href=""class="plus" data-toggle="modal" data-target="#postModal">
               <i class="fas fa-plus d-flex align-items-center justify-content-center p-2"></i>
               </a> 
                 
           </li>
            <li class="nav-item mx-2 text-center">
-            <a href=""><i class="fa fa-bell" aria-hidden="true"></i>
+            <a href="notification.html"><i class="fa fa-bell" aria-hidden="true"></i>
               </a>      
           </li>
           <li class="nav-item mx-2 text-center">
